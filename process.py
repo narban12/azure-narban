@@ -7,7 +7,7 @@ import csv
 
 
 hostname = 'glass.mysql.database.azure.com'
-username = 'glassadmin@glass.mysql.database.azure.com'
+username = 'glassadmin'
 password = 'User@1234'
 database = 'employees'
 
