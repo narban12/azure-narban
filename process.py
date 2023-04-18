@@ -12,7 +12,7 @@ password = 'User@1234'
 database = 'employees'
 
 def main():
-    connect_str = "DefaultEndpointsProtocol=https;AccountName=p2glpb;AccountKey=oA1HLU32e5DEXl7nFZ4mRPQ8JToCMLSNjzz22AGSUmmk567bBfbaLKSHbhPFbycyeI/OE0t4tCn++ASthiKx8w==;EndpointSuffix=core.windows.net"
+    connect_str = "DefaultEndpointsProtocol=https;AccountName=glassstorage1804;AccountKey=BcniC7mx/+yiaxIQiff+p1WSiZEk3O6fFVjPSHtC/CEaqd9inqVijEwQLndrGuYNnm91TvIUPDra+ASt1x/tIQ==;EndpointSuffix=core.windows.net"
     # Create the BlobServiceClient object which will be used to create a container client
     blob_service_client = BlobServiceClient.from_connection_string(connect_str)
     # Create a unique name for the container
