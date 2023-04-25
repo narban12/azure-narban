@@ -21,7 +21,7 @@
 21		}
 22
 23		// Query database for all rows in the table
-24		$sql = "SELECT * FROM mytable";
+24		$sql = "SELECT * FROM employees";
 25		$result = $conn->query($sql);
 26
 27		if ($result->num_rows > 0) {
