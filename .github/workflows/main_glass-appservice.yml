@@ -54,7 +54,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'glass-appservice'
+          app-name: 'glass-appser'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_95086E06F1F347C38A38AE448A3CC528 }}
           package: .
